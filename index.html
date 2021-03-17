@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Quizz culture générale !</h1>
+
+    <div class="container-global">
+
+        <form class="form-quizz">
+
+            <div class="question-block">
+                <h4>Qui est le president de la Colomie en 2021 ?</h4>
+                <!-- On entoure de div pour faire des blocs les uns au dessus des autres -->
+
+                <div>
+                    <input type="radio" id="Alberto Fernandez" name="q1" value="a" checked>
+                    <label for="Alberto Fernandez">Alberto Fernandez</label>
+                </div>
+                <div>
+                    <input type="radio" id="Alberto Vizcarra" name="q1" value="b">
+                    <label for="Alberto Vizcarra">Alberto Vizcarra</label>
+                </div>
+                <div>
+                    <input type="radio" id="Ivan Duque" name="q1" value="c">
+                    <label for="Ivan Duque">Ivan Duque</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Quelle est la date d'indépendance l'Australie ?</h4>
+                <div>
+                    <input type="radio" id="date1" name="q2" value="a" checked>
+                    <label for="date1">1 janvier 1901</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="date2" name="q2" value="b">
+                    <label for="date2">18 avril 1856</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="date3" name="q2" value="c">
+                    <label for="date3">30 juin 1925</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>La chute de l'empire Romain se situe en ?</h4>
+                <div>
+                    <input type="radio" id="date4" name="q3" value="a" checked>
+                    <label for="date4">15 ap. J.-C.</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="date5" name="q3" value="b">
+                    <label for="date5">395 ap. J.-C.</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="date6" name="q3" value="c">
+                    <label for="date6">-740 av. J.-C.</label>
+                </div>
+            </div>
+
+
+            <div class="question-block">
+                <h4>Quelle est la capitale de la Roumanie ?</h4>
+
+                <div>
+                    <input type="radio" id="Bucarest" name="q4" value="a" checked>
+                    <label for="Bucarest">Bucarest</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="Belgrade" name="q4" value="b">
+                    <label for="Belgrade">Belgrade</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="Ljubljana" name="q4" value="c">
+                    <label for="Ljubljana">Ljubljana</label>
+                </div>
+            </div>
+
+
+            <div class="question-block">
+                <h4>Combien d'habitants compte la chine en 2021 ?.</h4>
+                <div>
+                    <input type="radio" id="m1" name="q5" value="a" checked>
+                    <label for="m1">2,1 Milliards</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="m2" name="q5" value="b">
+                    <label for="m2">1,8 Miliards</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="m3" name="q5" value="c">
+                    <label for="m3">1,445 Milliards</label>
+                </div>
+            </div>
+            <button type="submit"> Validez vos choix ! </button>
+        </form>
+
+        <div class="resultats">
+            <h2>Cliquez sur validez pour voir les resultats.</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+
+    </div>
+
+
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
